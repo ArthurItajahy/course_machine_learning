@@ -32,3 +32,35 @@ if determinant != 0:
     print(inverse_matrix)
 else:
     print("\nThe matrix is singular, so its inverse cannot be computed.")
+
+ 
+ 
+ # Generate a random array of shape (3, 5) with values between 0 and 1
+random_data = np.random.rand(3, 5)
+
+print("Random Data:")
+print(random_data)
+
+# Calculate the mean of the random data along each axis
+mean_axis_0 = np.mean(random_data, axis=0)
+mean_axis_1 = np.mean(random_data, axis=1)
+
+print("\nMean along axis 0:")
+print(mean_axis_0)
+print("\nMean along axis 1:")
+print(mean_axis_1)
+
+# Calculate the standard deviation of the random data along each axis
+std_dev_axis_0 = np.std(random_data, axis=0)
+std_dev_axis_1 = np.std(random_data, axis=1)
+
+print("\nStandard Deviation along axis 0:")
+print(std_dev_axis_0)
+print("\nStandard Deviation along axis 1:")
+print(std_dev_axis_1)
+
+# Reshape the random data into a 1D array
+reshaped_data = random_data.reshape(-1)
+
+print("\nReshaped Data:")
+print(reshaped_data)
