@@ -1,5 +1,12 @@
 import numpy as np
 
+
+# array of zeros
+
+zeros_array = np.zeros(10)
+print(zeros_array)
+
+
 # Create a 3x3 matrix filled with zeros
 matrix = np.zeros((3, 3))
 
