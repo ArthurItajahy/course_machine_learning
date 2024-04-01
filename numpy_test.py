@@ -6,6 +6,9 @@ import numpy as np
 zeros_array = np.zeros(10)
 print(zeros_array)
 
+# array of fives
+fives = np.array([5]* 10)
+print("Five: ", fives)
 
 # Create a 3x3 matrix filled with zeros
 matrix = np.zeros((3, 3))
